@@ -24,3 +24,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 ?>
 
+<!-- Sending Email
+$to = "email@gmail.com";
+$subject = "New Contact Message from Dream Home";
+$headers = "From: " . $email;
+
+mail($to, $subject, $message, $headers);
+echo "<script>alert('Message sent successfully!'); window.location.href='index.php';</script>"; 
+-->
